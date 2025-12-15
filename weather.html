@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Weather Info</title>
+  <title>Weather</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>🌍 Temperaturat e Sotme</h1>
+  <h2>Zgjidh qytetin</h2>
 
-  <table>
-    <tr>
-      <th>Qyteti</th>
-      <th>Temperatura</th>
-    </tr>
-    <tr>
-      <td>Prishtinë</td>
-      <td>12°C</td>
-    </tr>
-    <tr>
-      <td>Tiranë</td>
-      <td>15°C</td>
-    </tr>
-    <tr>
-      <td>Shkup</td>
-      <td>14°C</td>
-    </tr>
-  </table>
+  <select id="citySelect">
+    <option value="">-- Zgjidh qytetin --</option>
+    <option value="Prishtinë">Prishtinë</option>
+    <option value="Tiranë">Tiranë</option>
+    <option value="Shkup">Shkup</option>
+  </select>
 
-  <a class="button" href="index.html">Kthehu</a>
+  <p id="result"></p>
 
+  <a href="index.html">⬅ Kthehu</a>
+
+  <script src="script.js"></script>
 </body>
 </html>
